@@ -10,7 +10,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String index() {
 		System.out.println("nova home");
-		return "index";
+		return "home";
 	}
 
 }
